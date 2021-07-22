@@ -29,5 +29,21 @@ Then conduct the crowdsale on the Kovan or Ropsten testnet in order to get a rea
 
 * `RefundablePostDeliveryCrowdsale`
 
-3. 
+3. It is important to note that the RefundableCrowdsale constructor is called instead of the RefundablePostDeliveryCrowdsalecontract because RefundablePostDeliveryCrowdsale inherits the RefundableCrowdsale constructor.
+
+4. The parameters are set as follows: 
+
+
+![Constructor_parameters](Images/CP1.png)
+
+* _goal is the goal set for the crowdsale which is `300 ETH`
+* _openingTime is set at   `now`
+* _closingTime is set at `now +24 weeks`
+* wallet is `beneficiary`
+* Token is `PupperCoin`
+
+
+
+
+
 
